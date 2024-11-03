@@ -2,11 +2,11 @@
 
 ![Gameplay](gameplay.gif)
 
-This project, titled "Another Flappy Bird," is a Flappy Bird game clone developed using the Unity game engine. It was created as a part of a challenge to develop a popular game from scratch, without any prior knowledge of Unity or game development. The aim of this project is to showcase the learning journey and progress made throughout the development process.
+This project, titled "Flappy Bird," is a Flappy Bird game clone developed using the Unity game engine. It was created as a part of a challenge to develop a popular game from scratch, without any prior knowledge of Unity or game development. The aim of this project is to showcase the learning journey and progress made throughout the development process.
 
 ## Game Description
 
-In "Another Flappy Bird," the player takes control of a bird character and must navigate it through a series of pipes without touching them. The bird automatically moves forward, and the player's objective is to make it flap its wings at the right time to gain height and avoid collisions with the pipes.
+In "Flappy Bird," the player takes control of a bird character and must navigate it through a series of pipes without touching them. The bird automatically moves forward, and the player's objective is to make it flap its wings at the right time to gain height and avoid collisions with the pipes.
 
 ## Gameplay
 
