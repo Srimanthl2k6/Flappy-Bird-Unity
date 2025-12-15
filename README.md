@@ -1,11 +1,11 @@
 #  Flappy Bird With Unity 
 
 ![Gameplay](gameplay.gif)
+
+![Unity](https://img.shields.io/badge/Made%20with-Unity-black?style=for-the-badge&logo=unity)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Mac%20%7C%20Android-blue?style=for-the-badge)
 
 > A high-speed endless runner where reflexes are your only survival tool.
-
-![Gameplay Demo](gameplay.gif)
 
 ## 🎮 About The Game
 
