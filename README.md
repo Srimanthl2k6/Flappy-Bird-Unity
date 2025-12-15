@@ -2,70 +2,64 @@
 
 ![Gameplay](gameplay.gif)
 
+![Unity](https://img.shields.io/badge/Made%20with-Unity-black?style=for-the-badge&logo=unity)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Mac%20%7C%20Android-blue?style=for-the-badge)
 
-This project, named "Flappy Bird," is a recreation of the popular Flappy Bird game, developed using the Unity game engine. It was initiated as a challenge to build a well-known game from scratch, without any prior experience in Unity or game development. The objective of this project is to demonstrate the learning journey and the progress made throughout the development process.
+> A high-speed endless runner where reflexes are your only survival tool.
 
-## Game Description
+![Gameplay Demo](gameplay.gif)
 
-In "Flappy Bird," the player takes control of a bird character and must navigate it through a series of pipes without touching them. The bird automatically moves forward, and the player's objective is to make it flap its wings at the right time to gain height and avoid collisions with the pipes.
+## 🎮 About The Game
 
-## Gameplay
+**[Your Game Name]** is a fast-paced arcade survival game built in Unity. The goal is simple: navigate through an endless obstacle course without crashing. 
 
-The gameplay mechanics of this Flappy Bird clone are similar to the original game. The player controls a bird character and must navigate it through a series of pipes without touching them. The bird automatically moves forward, and the player can make it flap its wings to gain height and avoid collisions.
+This project demonstrates the implementation of 2D physics, procedural generation, and game state management in Unity.
 
-To control the bird, you can use the following inputs:
+### ✨ Key Features
 
-- **Mouse Click**: Click the left mouse button to make the bird flap its wings.
-- **Spacebar**: Press the spacebar to make the bird flap its wings.
+* **Infinite Procedural Levels:** No two runs are ever the same.
+* **Physics-Based Movement:** Smooth and responsive flight mechanics.
+* **Dynamic Difficulty:** The game tests your precision as you progress.
+* **High Score System:** Challenge yourself to beat your personal best.
 
-Your objective is to survive for as long as possible and achieve a high score by passing through as many pipes as you can.
+---
 
-## Features
+## 🕹️ Controls
 
-The game incorporates the following features:
+| Action | Input |
+| :--- | :--- |
+| **Jump / Fly** | `Spacebar` or `Left Mouse Click` |
+| **Pause** | `Esc` |
 
-- Simple yet addictive gameplay mechanics similar to the original Flappy Bird game.
-- Realistic physics for bird movement and pipe collisions.
-- Randomly generated pipes for a dynamic and challenging experience.
-- Sound effects and background music to enhance the gaming experience.
-- Easy-to-understand controls using mouse clicks or spacebar presses.
+---
 
-## Getting Started
+## 🛠️ Installation & Setup
 
-To run "Flappy Bird" on your local machine, follow the steps below:
+Want to modify the game or run it locally? Follow these steps:
 
-1. Clone the repository to your local machine or download the source code as a ZIP file.
-2. Open the project in Unity using a compatible version (recommended: Unity 2019.4.20f1 or later).
-3. Ensure that you have the necessary components installed for Unity to run (e.g., Android Build Support for building to Android devices).
-4. Once the project is loaded, navigate to the "Scenes" folder and open the "Game" scene.
-5. In the Unity editor, click the "Play" button to start the game in the Unity Player.
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/YourUsername/your-repo-name.git](https://github.com/YourUsername/your-repo-name.git)
+    ```
 
-## Learning Journey
+2.  **Open in Unity**
+    * Launch Unity Hub.
+    * Click **Add** and select the cloned folder.
+    * Open the project (Recommended Version: Unity 2019.4 or later).
 
-This project was developed as a challenge to learn Unity and game development from scratch. No prior experience or knowledge was available before starting this project. Throughout the development process, various skills and concepts were learned, including:
+3.  **Play**
+    * Open the scene: `Assets/Scenes/Game.unity`.
+    * Press the ▶️ **Play** button at the top of the editor.
 
-- Introduction to Unity's interface and project setup.
-- Understanding game objects, components, and the Unity scene hierarchy.
-- Implementing physics-based movement for the bird character.
-- Creating and animating 2D assets using Unity's Sprite Renderer.
-- Handling user input to control the bird's movement.
-- Implementing collision detection and managing game states.
-- Designing and generating random pipes for gameplay variety.
-- Incorporating sound effects and background music using Unity's Audio Source component.
-- Building and testing the game on different platforms.
+---
 
-This project serves as a testament to the learning potential of taking on new challenges and exploring unfamiliar territories.
+## 📂 Project Structure
 
-## Contributions
-Feel free to fork the repository and use it as a starting point for your own game development projects or experiments.
+Here is a quick overview of the main scripts to help you navigate the code:
 
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code for personal and educational purposes. However, please refrain from using this project for commercial purposes without obtaining appropriate permissions.
-
-
-## Acknowledgments
-
-Special thanks to the creators of Flappy Bird for the original concept and inspiration. Additionally, gratitude goes to the Unity community and various online tutorials and resources that aided in the learning process. 
-Feel free to explore the code, experiment with modifications, and enjoy the game! Happy flapping!
+```csharp
+Assets/
+├── BirdScript.cs        // Handles physics and user input
+├── PipeSpawnerScript.cs // Manages procedural obstacle generation
+├── LogicScript.cs       // Controls score, game over state, and UI
+└── MainMenu.cs          // Handles scene transitions
